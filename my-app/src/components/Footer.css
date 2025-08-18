@@ -1,0 +1,59 @@
+footer {
+    background-color: #f3f4f6; /* light muted gray, matches even sections */
+    color: #111827; /* dark text consistent with headings */
+    padding: 40px 20px;
+    font-size: 0.9rem;
+  }
+  
+  footer .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer .top-row span {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  footer .top-row div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  footer .top-row a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+  
+  footer .top-row a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
+  footer .top-row button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #ffffff; /* white to match cards */
+    color: #111827;
+    font-weight: 600;
+    border: 1px solid #e5e7eb; /* subtle border like cards */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  footer .top-row button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* match card shadows */
+  }
+  
+  footer .bottom-row {
+    text-align: left;
+    color: #6b7280; /* muted gray for subtle contrast */
+  }
+  

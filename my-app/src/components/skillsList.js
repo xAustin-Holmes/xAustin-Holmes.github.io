@@ -16,6 +16,11 @@ const skillsData = {
         title: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         description: "JavaScript library for building dynamic and interactive UIs."
+      },
+      {
+        title: "Vue",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+        description: "JavaScript library for building dynamic and interactive UIs."
       }
     ],
     backend: [
