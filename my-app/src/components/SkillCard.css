@@ -1,0 +1,44 @@
+.skill-card {
+  width: 100%;
+  max-width: 300px;
+  text-align: center; /* keeps description and overall card centered */
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* NEW: wrap icon and title together */
+.skill-card .icon-title {
+  display: flex;
+  align-items: center; /* vertically centers icon and title */
+  justify-content: center; /* keeps the pair centered in the card */
+  gap: 10px; /* space between icon and title */
+  margin-bottom: 10px;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin: 0; /* remove bottom margin because flex gap handles spacing */
+}
+
+.skill-card h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0; /* remove bottom margin, handled by .icon-title margin */
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.4;
+  margin-top: 10px; /* space between description and icon/title */
+}

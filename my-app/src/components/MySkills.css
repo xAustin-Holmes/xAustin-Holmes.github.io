@@ -1,0 +1,37 @@
+.my-skills {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .my-skills h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .my-skills h3 {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .my-skills .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+  
+.my-skills .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* auto-fit instead of auto-fill */
+    gap: 24px;
+    justify-items: center; /* centers each card inside its grid cell */
+}
+  

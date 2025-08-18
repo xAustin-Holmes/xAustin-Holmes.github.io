@@ -1,13 +1,14 @@
 import "./WorkCard.css";
 
-export default function WorkCard({ title, fromTo, children }) {
+export default function WorkCard({ title, company, fromTo, children }) {
   return (
     <div className="work-card">
-      <div className="work-card-header">
         <h2 className="work-card-title">{title}</h2>
-        <span className="work-card-dates">{fromTo}</span>
-      </div>
-      <p className="work-card-description">{children}</p>
+        <div className="work-card-header">
+            <h3 className="work-card-title">{company}</h3>
+            <span className="work-card-dates">{fromTo}</span>
+        </div>
+        <p className="work-card-description">{children}</p>
     </div>
   );
 }
