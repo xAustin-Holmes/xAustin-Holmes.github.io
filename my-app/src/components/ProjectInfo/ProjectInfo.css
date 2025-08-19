@@ -1,0 +1,43 @@
+.project-info {
+    flex: 0 0 50%;
+    min-width: 0;
+    max-width: 90%;
+    padding: 12px 0;          /* breathing room but no card look */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    justify-content: center;
+  }
+  
+  .project-info h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .project-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.6;
+  }
+  
+  .tech-stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+  
+  .tech-stack span {
+    font-weight: 600;
+    color: #111827;
+  }
+  

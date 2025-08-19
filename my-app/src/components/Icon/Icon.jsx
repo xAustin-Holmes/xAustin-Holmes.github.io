@@ -8,6 +8,7 @@ export default function Icon ( {title, src, alt} ) {
                 title={title}
                 src={src}
                 alt={alt}
+                className="icon"
             />
         </>
     );

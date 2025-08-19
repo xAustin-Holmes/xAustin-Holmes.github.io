@@ -20,7 +20,8 @@ export default function Footer () {
             />
           </a>
           <a href='https://github.com/xAustin-Holmes'>
-            <img
+            <Icon
+              title='GitHub'
               src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
               alt='GitHub'
             />

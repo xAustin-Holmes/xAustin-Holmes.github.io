@@ -1,0 +1,20 @@
+.project-image {
+    flex: 0 0 70%;
+    min-width: 0;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    display: block;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* smooth animation */
+  }
+  
+  .project-image img:hover {
+    transform: translateY(-8px); /* slightly more dramatic rise */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
+  }
+  
