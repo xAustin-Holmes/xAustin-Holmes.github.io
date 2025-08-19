@@ -1,4 +1,4 @@
-import WorkCard from "./WorkCard";
+import WorkCard from "../WorkCard/WorkCard";
 import "./WorkExperience.css";
 
 export default function WorkExperience () {

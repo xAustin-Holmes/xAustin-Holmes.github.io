@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Button from './Button';
-import SkillCard from './SkillCard';
-import skillsList from './skillsList';
+import Button from '..//Button/Button';
+import SkillCard from '../SkillCard/SkillCard';
+import skillsList from '../skillsList';
 import "./MySkills.css";
 
 export default function MySkills () {

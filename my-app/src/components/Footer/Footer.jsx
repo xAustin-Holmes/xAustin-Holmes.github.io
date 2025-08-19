@@ -1,4 +1,5 @@
-import Button from './Button';
+import Button from '../Button/Button';
+import Icon from '../Icon/Icon';
 import './Footer.css';
 
 export default function Footer () {
@@ -12,7 +13,8 @@ export default function Footer () {
         <span>Contact</span>
         <div>
           <a href='https://www.linkedin.com/in/austindaneholmes/'>
-            <img
+            <Icon
+              title='LinkedIn'
               src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg'
               alt='LinkedIn'
             />

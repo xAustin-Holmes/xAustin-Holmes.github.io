@@ -1,10 +1,10 @@
 import './App.css';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import Intro from './components/Intro';
-import WorkExperience from './components/WorkExperience';
-import MySkills from './components/MySkills';
-import Projects from './components/Projects';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Intro from './components/Intro/Intro';
+import WorkExperience from './components/WorkExperience/WorkExperience';
+import MySkills from './components/MySkills/MySkills';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
