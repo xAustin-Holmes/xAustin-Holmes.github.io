@@ -1,0 +1,83 @@
+.intro-container {
+    display: flex;
+    align-items: center;        /* centers profile pic vertically */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    gap: 40px;                  /* space between text + image */
+  
+    min-height: 100vh;          /* 👈 fills full screen height */
+    box-sizing: border-box;     /* makes sure padding is included */
+  }
+  
+  .intro-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    /* left-align everything */
+    gap: 30px;
+  }
+  
+  .intro-left h2 {
+    font-size: 3rem;            /* large name font */
+    font-weight: 700;
+    margin: 0;
+    color: #111827;
+    line-height: 1.1;
+  }
+  
+  .intro-left .intro-description {
+    font-size: 1.2rem;
+    color: #374151;
+    max-width: 600px;           /* keeps text readable */
+    line-height: 1.6;
+  }
+  
+  .intro-left .intro-button {
+    margin-top: 20px;
+  }
+  
+  .intro-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;    /* center profile pic horizontally */
+    align-items: center;        /* center vertically in its half */
+  }
+  
+  .intro-right img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;         /* circular profile pic */
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* === Responsive (mobile) === */
+  @media (max-width: 768px) {
+    .intro-container {
+      flex-direction: column;   /* stack vertically */
+      text-align: center;
+    }
+  
+    .intro-left {
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .intro-left h2 {
+      font-size: 2.2rem;
+    }
+  
+    .intro-left .intro-description {
+      font-size: 1rem;
+      text-align: left;
+    }
+  
+    .intro-right img {
+      max-width: 200px;
+      margin-top: 20px;
+    }
+  }
+  

@@ -30,7 +30,6 @@ section {
   width: 100%;
   padding: 0px 20px;
   margin: 0 auto;
-  text-align: center;
 }
 
 section:nth-of-type(odd) {
