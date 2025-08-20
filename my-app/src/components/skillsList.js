@@ -4,57 +4,51 @@ const skillsData = {
     frontend: [
       {
         title: "HTML",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
-        description: "Markup language used to structure content on the web."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
       },
       {
         title: "CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
-        description: "Stylesheet language used to design and layout web pages."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
       },
       {
         title: "React",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        description: "JavaScript library for building dynamic and interactive UIs."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        title: "React",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       },
       {
         title: "Vue",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-        description: "JavaScript library for building dynamic and interactive UIs."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
       }
     ],
     backend: [
       {
         title: "Node.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        description: "JavaScript runtime for building scalable server-side applications."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
       },
       {
         title: "Express",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-        description: "Minimalist web framework for Node.js."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
       },
       {
         title: "PostgreSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-        description: "Powerful open-source relational database system."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
       }
     ],
     tools: [
       {
         title: "Git",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        description: "Version control system for tracking and collaborating on code."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
       },
       {
         title: "VS Code",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-        description: "Lightweight but powerful source code editor."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
       },
       {
         title: "Linux",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-        description: "Open-source operating system used for development and servers."
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
       }
     ]
   };

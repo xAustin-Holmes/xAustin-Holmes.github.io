@@ -5,39 +5,47 @@ import skillsList from '../skillsList';
 import "./MySkills.css";
 
 export default function MySkills () {
-    const [view, setView] = useState(skillsList['frontend']);
+  const [activeTab, setActiveTab] = useState("frontend");
 
-    const handleFrontend = () => {
-        setView(skillsList['frontend']);
-    }
+  const handleTabClick = (tab) => {
+      setActiveTab(tab);
+  };
 
-    const handleBackend = () => {
-        setView(skillsList['backend']);
-    }
+  return (
+    <div className="my-skills">
+      <h2>What I Bring to the Table!</h2>
+      
+      <div className="buttons">
+        <Button 
+          onClick={() => handleTabClick("frontend")} 
+          className={activeTab === "frontend" ? "active" : ""}
+        >
+          Frontend
+        </Button>
+        <Button 
+          onClick={() => handleTabClick("backend")} 
+          className={activeTab === "backend" ? "active" : ""}
+        >
+          Backend
+        </Button>
+        <Button 
+          onClick={() => handleTabClick("tools")} 
+          className={activeTab === "tools" ? "active" : ""}
+        >
+          Tools
+        </Button>
+      </div>
 
-    const handleTools = () => {
-        setView(skillsList['tools']);
-    }
-
-    return (
-        <div className="my-skills">
-          <h2>My Skills</h2>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit...........................</h3>
-          <div className="buttons">
-            <Button onClick={handleFrontend}>Frontend</Button>
-            <Button onClick={handleBackend}>Backend</Button>
-            <Button onClick={handleTools}>Tools</Button>
-          </div>
-          <div className="skills-grid">
-            {view.map((skill, index) => (
-              <SkillCard
-                key={index}
-                title={skill.title}
-                icon={skill.icon}
-                description={skill.description}
-              />
-            ))}
-          </div>
-        </div>
-      );
+      <div className="skills-grid">
+        {skillsList[activeTab].map((skill, index) => (
+          <SkillCard
+            key={index}
+            title={skill.title}
+            icon={skill.icon}
+            description={skill.description}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }

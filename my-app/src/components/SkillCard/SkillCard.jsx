@@ -10,7 +10,6 @@ export default function SkillCard({ title, icon, description}) {
             />
             <h2>{title}</h2>
         </div>
-        <p>{description}</p>
     </div>
   );
 }
