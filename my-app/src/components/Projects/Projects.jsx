@@ -8,7 +8,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <div className="projects">
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
 
         {/* Project 1 */}
         <div className="project">
@@ -50,7 +50,7 @@ export default function Projects() {
             {/* Project 3 */}
         <div className="project">
             <div className="project-info">
-            <ProjectInfo title="Project 1">
+            <ProjectInfo title="Project 3">
                 Most developers created React routing with React Router v5. In 2021, React Router’s maintainers released v6 by solving some issues that existed in v5, such as somewhat large bundle size, inconsistent APIs, path ranking problems, and more.
             </ProjectInfo>
             <div className="tech-stack">
